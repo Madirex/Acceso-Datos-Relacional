@@ -1,0 +1,35 @@
+# Para iniciar docker-compose up -d
+version: '3.7'
+
+services:
+  mariadb:
+    build: ./mariadb
+    image: mariadb
+    container_name: mariadb
+    ports:
+      - 3306:3306
+    expose:
+      - 3306
+    volumes:
+      - mariadb-volume:/var/lib/mysql
+    networks:
+      - mariadb-network
+    # restart: always
+
+  adminer:
+    image: adminer
+    container_name: adminer
+    # restart: always
+    ports:
+      - 8080:8080
+    networks:
+      - mariadb-network
+    depends_on:
+      - mariadb
+
+volumes:
+  mariadb-volume:
+
+networks:
+  mariadb-network:
+    driver: bridge
