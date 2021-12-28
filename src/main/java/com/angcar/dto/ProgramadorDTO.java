@@ -24,6 +24,7 @@ public class ProgramadorDTO extends BaseDTO{
     private boolean es_jefe_proyecto;
     private boolean es_jefe_activo;
     private String password;
+    //TODO: Las ids ficha y tarea no han sido guardados aquí como strings (se pueden agregar para mayor navegabilidad)
 
     //ADDS
     private Departamento departamentoTo;
@@ -36,7 +37,6 @@ public class ProgramadorDTO extends BaseDTO{
                 "uuid_programador='" + uuid_programador + '\'' +
                 ", nombre='" + nombre + '\'' +
                 ", fecha_alta=" + fecha_alta +
-                ", departamento='" + departamento + '\'' +
                 ", tecnologias_dominadas='" + tecnologias_dominadas + '\'' +
                 ", salario=" + salario +
                 ", es_jefe_departamento=" + es_jefe_departamento +
