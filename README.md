@@ -17,7 +17,7 @@ comprobar que las operaciones CRUD de los repository se realicen de manera corre
 Inicializar la base de datos:
 1. Abrir la consola y acceder a la carpeta **docker**.
 2. **Escribir el siguiente comando para inicializar la base de datos con Docker Compose:** sudo docker-compose up -d
-3. Ejecutar el programa con el parámetro de la localización donde se guardarán los datos a exportar.
+3. Ejecutar el programa con el parámetro de la ubicación donde se guardarán los datos a exportar.
 
 ## 🐛 En caso de fallo (reinicio base de datos)
 1. **Para parar el adminer** sudo docker stop adminer
