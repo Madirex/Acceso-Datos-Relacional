@@ -23,7 +23,6 @@ public class RepositorioDTO extends BaseDTO{
                 "uuid_repositorio='" + uuid_repositorio + '\'' +
                 ", nombre='" + nombre + '\'' +
                 ", fecha_creacion=" + fecha_creacion +
-                ", proyecto='" + proyecto + '\'' +
                 ", proyectoTo=" + proyectoTo.getUuid_proyecto() +
                 '}';
     }
