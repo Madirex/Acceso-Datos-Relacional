@@ -32,8 +32,6 @@ public class IssueDTO extends BaseDTO{
                 ", titulo='" + titulo + '\'' +
                 ", texto='" + texto + '\'' +
                 ", fecha=" + fecha +
-                ", proyecto='" + proyecto + '\'' +
-                ", repositorio_asignado='" + repositorio_asignado + '\'' +
                 ", es_acabado=" + es_acabado +
                 ", proyectoTo=" + proyectoTo.getUuid_proyecto() +
                 ", repositorioTo=" + repositorioTo.getUuid_repositorio() +
