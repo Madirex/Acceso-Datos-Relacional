@@ -35,15 +35,12 @@ public class ProyectoDTO extends BaseDTO{
     public String toString() {
         return "ProyectoDTO{" +
                 "uuid_proyecto='" + uuid_proyecto + '\'' +
-                ", jefe_proyecto='" + jefe_proyecto + '\'' +
                 ", nombre='" + nombre + '\'' +
                 ", presupuesto=" + presupuesto +
                 ", fecha_inicio=" + fecha_inicio +
                 ", fecha_fin=" + fecha_fin +
                 ", tecnologias_usadas='" + tecnologias_usadas + '\'' +
-                ", repositorio='" + repositorio + '\'' +
                 ", es_acabado=" + es_acabado +
-                ", uuid_departamento='" + uuid_departamento + '\'' +
                 ", jefe_proyectoTo=" + jefe_proyectoTo.getUuid_programador() +
                 ", departamentoTo=" + departamentoTo.getUuid_departamento() +
                 ", repositorioTo=" + repositorioTo.getUuid_repositorio() +
