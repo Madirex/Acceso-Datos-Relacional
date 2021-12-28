@@ -22,8 +22,6 @@ public class FichaDTO extends BaseDTO{
     public String toString() {
         return "FichaDTO{" +
                 "uuid_ficha='" + uuid_ficha + '\'' +
-                ", uuid_programador='" + uuid_programador + '\'' +
-                ", uuid_proyecto='" + uuid_proyecto + '\'' +
                 ", programadorTo=" + programadorTo.getUuid_programador() +
                 ", proyectoTo=" + proyectoTo.getUuid_proyecto() +
                 '}';
