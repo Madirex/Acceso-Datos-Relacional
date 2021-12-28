@@ -17,4 +17,13 @@ public class TareaDTO extends BaseDTO{
     private Programador programadorTo;
     private Issue issueTo;
 
+    
+    @Override
+    public String toString() {
+        return "TareaDTO{" +
+                "uuid_tarea='" + uuid_tarea + '\'' +
+                ", programadorTo=" + programadorTo.getUuid_programador() +
+                ", issueTo=" + issueTo.getUuid_issue() +
+                '}';
+    }
 }
