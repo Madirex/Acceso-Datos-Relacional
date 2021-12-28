@@ -10,7 +10,7 @@ Se ha hecho un mapeo objeto relacional de manera manual realizando operaciones C
 diagrama de clases, creación de la base de datos y de su estructura, realización de test unitarios con JUnit5 para 
 comprobar que las operaciones CRUD de los repository se realicen de manera correcta.
 
-##⚠ Requisitos
+## ⚠ Requisitos
 - Docker y Docker Compose
 
 ## ✏ Instrucciones
@@ -18,7 +18,7 @@ Inicializar la base de datos:
 1. Abrir la consola y acceder a la carpeta **docker**.
 2. **Escribir el siguiente comando para inicializar la base de datos con Docker Compose:** sudo docker-compose up -d
 
-## En caso de fallo (reinicio base de datos)
+## 🐛 En caso de fallo (reinicio base de datos)
 1. **Para parar el adminer** sudo docker stop adminer
 2. **Para parar mariadb** sudo docker stop mariadb
 3. **Para eliminar todas las imágenes, volúmenes, contenedores y redes no utilizadas:** sudo docker system prune -a --volumes
