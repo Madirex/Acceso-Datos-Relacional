@@ -20,7 +20,7 @@ Inicializar la base de datos:
 
 ## 🐛 En caso de fallo (reinicio base de datos)
 1. **Para parar el adminer** sudo docker stop adminer
-2. **Para parar mariadb** sudo docker stop mariadb
+2. **Para parar MariaDB** sudo docker stop mariadb
 3. **Para eliminar todas las imágenes, volúmenes, contenedores y redes no utilizadas:** sudo docker system prune -a --volumes
 
 ## Puesto en práctica
