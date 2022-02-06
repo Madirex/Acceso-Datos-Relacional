@@ -12,7 +12,6 @@ comprobar que las operaciones CRUD de los repository se realicen de manera corre
 
 ## ⚠ Requisitos
 - Docker y Docker Compose
-- Crear archivo .env con el usuario y la contraseña de la aplicación
 
 ## ✏ Instrucciones
 Inicializar la base de datos:
